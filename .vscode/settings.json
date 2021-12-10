@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 18,
+    //"window.zoomLevel": 1,
+    "gitlens.currentLine.enabled": true,
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontWeight": "500",
+    "terminal.integrated.fontWeightBold": "600"
+}
