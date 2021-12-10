@@ -1,6 +1,6 @@
 {
     "editor.fontSize": 18,
-    //"window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "gitlens.currentLine.enabled": true,
     "editor.formatOnSave": true,
     "terminal.integrated.fontSize": 18,
