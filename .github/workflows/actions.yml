@@ -11,6 +11,12 @@ jobs:
               run: |
                   pwd
                   ls
+            - name: checkout
+              uses: actions/checkout@v1
+            - name: List Files
+              run: |
+                  pwd
+                  ls
             - name: Simple JS Action
               id: greet
               # instead of v1 you can also use a branch name or a commit id to reference a specific version of an action
