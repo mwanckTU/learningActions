@@ -10,13 +10,13 @@ jobs:
             - name: List Files
               run: |
                   pwd
-                  ls
+                  ls -la
             - name: checkout
               uses: actions/checkout@v1
-            - name: List Files
+            - name: List Files After Checkout
               run: |
                   pwd
-                  ls
+                  ls -la
             - name: Simple JS Action
               id: greet
               # instead of v1 you can also use a branch name or a commit id to reference a specific version of an action
