@@ -7,6 +7,10 @@ jobs:
     run-github-actions:
         runs-on: ubuntu-latest
         steps:
+            - name: List Files
+              run: |
+                  pwd
+                  ls
             - name: Simple JS Action
               id: greet
               # instead of v1 you can also use a branch name or a commit id to reference a specific version of an action
