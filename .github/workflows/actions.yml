@@ -12,6 +12,6 @@ jobs:
               # instead of v1 you can also use a branch name or a commit id to reference a specific version of an action
               uses: actions/hello-world-javascript-action@v1
               with:
-                  who-to-greet: Marco
+                  who-to-greet: MarcoW
             - name: Log greeting time
               run: echo "${{ steps.greet.outputs.time }}"
